@@ -28,7 +28,6 @@ font-size: o;
 
 .header__nav-item{
     display: inline-block;
-    padding: 5px 40px;
     font-size: 16px;
     
 }
@@ -37,6 +36,7 @@ font-size: o;
     text-transform: uppercase;
     text-decoration: none;
     color: #626262;
+    padding: 5px 40px;
 }
 
 .header_nav-link_active,
@@ -62,6 +62,7 @@ font-size: o;
     height: 281px;
     text-align: left;
     box-sizing: border-box;
+    margin-bottom: 32px;
 }
 
 .post__sing{
@@ -70,7 +71,7 @@ font-size: o;
     text-align: left;
     font-family: 'Ubuntu';
     text-transform: uppercase;
-    padding-top: 32px;
+    margin-bottom: 28px;
 
 }
 
@@ -79,7 +80,7 @@ font-size: o;
     font-size: 30px;
     text-align: left;
     font-family: 'Playfair Display';
-    padding-top: 28px;
+    margin-bottom: 39px;
 
 }
 
@@ -88,8 +89,7 @@ font-size: o;
     font-size: 14px;
     text-align: left;
     font-family: 'Playfair Display';
-    width: 414px;
-    padding-top: 39px;
+
 }
 
 .btn__wrap{
@@ -106,6 +106,8 @@ font-size: o;
     border: 1px solid black;
 }
 
-
+.btn:hover{
+    background-color: #E0FFFF;
+    color:#03a9f4;
 
     /*img.figure*/
