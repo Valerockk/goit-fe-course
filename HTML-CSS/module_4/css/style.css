@@ -13,7 +13,7 @@ html{
 
 body{
     margin: 30px auto;
-    
+    font-family: 'Open Sans';
 }
 
 .clearfix:after{
@@ -60,7 +60,6 @@ body{
     color: #0F0101;
     padding-left: 30px;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
     margin-bottom: 6px;
     margin-top: 5px;
 }
@@ -99,22 +98,17 @@ h2::after{
     padding: 29px 29px 0 0;
 }
 
-.product__img-bg{
-    width: 256px;
-    height: 282px;
-    background-color: #E8EFFC;
-    border: black;
-}
 
 .product__img{
+    display: block;
     float: none;
     display: block;
-    margin: auto;
     max-height: 282px;
     max-width: 256px;
     background-color: #E8EFFC;
-    
 }
+
+
 
 .product__title{
     color: #fff;
@@ -175,7 +169,6 @@ h2::after{
     color: #555252;
     text-align: left;
     font-size: 18px;
-    font-family:  'Open Sans';
     margin-top: 13px;
 }
 
@@ -195,7 +188,6 @@ h2::after{
     display: block;
     text-align: left;
     font-size: 14px;
-    font-family:  'Open Sans';
     max-height: 66px ;
     margin-bottom: 14px;
 }
@@ -204,7 +196,6 @@ h2::after{
     color: #fff;
     display: inline-block;
     font-size: 16px;
-    font-family: 'Open Sans';
     padding: 19px 44px;
     background-color: #4EC6AB;
     border-radius: 5px;
@@ -216,6 +207,7 @@ h2::after{
     color:#fff;
     border: none;
 }
+
 
 
 
