@@ -11,9 +11,14 @@ html{
     align-items: center;
 }
 
-body{
-    margin: 30px auto;
-    font-family: 'Open Sans';
+
+.wrapper {
+    width: 100%;
+    max-width: 1142px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    box-sizing: border-box;
 }
 
 .clearfix:after{
@@ -23,7 +28,7 @@ body{
 }
 
 .header{
-    width: 1112px;
+    max-width: 1112px;
 }
 
 .header__logo{
@@ -87,15 +92,20 @@ h2::after{
 }
 
 .product{
-    width: 1164px;
+    max-width: 1164px;
     margin: 0;
 }
 
 .product__block{
+    counter-increment: count-products;
     float: left;
     width: 256px;
     height: 323px;
     padding: 29px 29px 0 0;
+}
+.product__block:nth-child(4n) {
+    padding-right: 0;
+    /* margin-bottom: 0; */
 }
 
 
