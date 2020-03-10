@@ -6,17 +6,7 @@ html{
  }
 .container{
     width: 1112px;
-    margin: 0px auto 50px auto; 
-}
-
-
-.wrapper {
-    width: 100%;
-    max-width: 1142px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: auto;
-    box-sizing: border-box;
+    margin: 50px auto 50px auto; 
 }
 
 .clearfix:after{
@@ -25,9 +15,6 @@ html{
     clear: both;
 }
 
-.header{
-    margin-top: 30px;
-}
 
 .header__logo{
     float: left;
