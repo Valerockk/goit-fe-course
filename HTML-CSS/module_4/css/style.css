@@ -6,9 +6,7 @@ html{
  }
 .container{
     width: 1112px;
-    padding: auto 0px auto 20px;
-    margin: 30px auto; 
-    align-items: center;
+    margin: 0px auto 50px auto; 
 }
 
 
@@ -73,8 +71,12 @@ html{
     color: #1ABC9C;
 }
 
-h2{
-    margin-top: 102px;
+.sc{
+    margin-top: 105px;
+    margin-bottom: 105px;
+}
+
+.h2{
     text-align: center;
     text-transform: uppercase;
     color: #515151;
@@ -82,16 +84,18 @@ h2{
     font-family: 'Roboto';
     font-weight: 900;
 }
+
 h2::after{
     content: '';
     display: block;
     background: #1ABC9C;
     width: 165px;
     height: 8px;
-    margin: 31px auto 61px auto;
+    margin: 31px auto 91px auto;
 }
 
 .product{
+    list-style-type: none;
     max-width: 1164px;
     margin: 0;
 }
@@ -101,11 +105,13 @@ h2::after{
     float: left;
     width: 256px;
     height: 323px;
-    padding: 29px 29px 0 0;
+    padding-top: 29px;
+    margin-right: 29px;
 }
+
 .product__block:nth-child(4n) {
     padding-right: 0;
-    /* margin-bottom: 0; */
+    margin-right: 0;
 }
 
 
@@ -161,6 +167,7 @@ h2::after{
 
 
 .news{
+    list-style-type: none;
     width: 1164px;
     margin: 0;
 }
@@ -180,6 +187,7 @@ h2::after{
     text-align: left;
     font-size: 18px;
     margin-top: 13px;
+    margin-bottom: 29px;
 }
 
 .news__title::after{
@@ -189,7 +197,7 @@ h2::after{
     background: #1ABC9C;
     width: 137px;
     height: 4px;
-    margin: 10px 216px 29px auto;
+    margin: 10px 216px 0px auto;
     
 }
 
