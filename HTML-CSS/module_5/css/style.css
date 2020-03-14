@@ -6,9 +6,7 @@ html{
  }
 .container{
     width: 1112px;
-    padding-top: 50px; 
-    padding-bottom: 50px;
-    margin: 0px auto;
+    margin: 50px auto 50px auto; 
 }
 
 .clearfix:after{
@@ -63,8 +61,8 @@ html{
 }
 
 .sc{
-    padding-top: 105px;
-    padding-bottom: 105px;
+    margin-top: 105px;
+    margin-bottom: 105px;
 }
 
 .h2{
@@ -74,7 +72,6 @@ html{
     font-size: 48px;
     font-family: 'Roboto';
     font-weight: 900;
-    margin-bottom: 91px;
 }
 
 h2::after{
@@ -83,7 +80,7 @@ h2::after{
     background: #1ABC9C;
     width: 165px;
     height: 8px;
-    margin: 31px auto 0px auto;
+    margin: 31px auto 91px auto;
 }
 
 .product{
@@ -97,17 +94,13 @@ h2::after{
     float: left;
     width: 256px;
     height: 323px;
-    margin-bottom: 29px;
+    padding-top: 29px;
     margin-right: 29px;
 }
 
 .product__block:nth-child(4n) {
     padding-right: 0;
     margin-right: 0;
-}
-
-.product__block:nth-child(n+4) {
-    margin-bottom: 0px;
 }
 
 
