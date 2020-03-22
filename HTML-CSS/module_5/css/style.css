@@ -327,6 +327,7 @@ h2::after{
 }
 
 .footer{
+    margin-top: 69px;
     position: relative;
     height: 89px;
     background-color: #323232;
