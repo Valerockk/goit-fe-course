@@ -4,119 +4,219 @@
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>HW_Module_4</title>
+                <title>HW_Module_5</title>
                 <link rel="stylesheet" href="css/style.css">
                 <link rel="stylesheet" href="css/reset.css">
                 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
                 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap&subset=cyrillic" rel="stylesheet">
+                <script src="js/font-awesome.js"></script>
             </head>
             <body>
-                <div class="container">
-                    <header class="header clearfix">
+                <!-- start header -->
+                <header class="header clearfix">
+                    <div class="container">
                         <a href="" class="header__logo">mart</a>
                         <nav class="header__nav">
-                            <ul class="header__nav-list clearfix"> 
-                                <li class="header__nav-item"><a href="" class="header__nav-link">home</a></li>
-                                <li class="header__nav-item"><a href="" class="header__nav-link">about us</a></li>
-                                <li class="header__nav-item"><a href="" class="header__nav-link">page</a></li>
-                                <li class="header__nav-item"><a href="" class="header__nav-link">shop</a></li>
-                                <li class="header__nav-item"><a href="" class="header__nav-link">blog</a></li>
-                                <li class="header__nav-item"><a href="" class="header__nav-link">contact us</a></li>
+                            <ul class="header__nav-list"> 
+                                <li class="header__nav-item ">
+                                    <a href="" class="header__nav-link header__nav-item_active">home</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="" class="header__nav-link">about us</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="" class="header__nav-link">page</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="" class="header__nav-link">shop</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="" class="header__nav-link">blog</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="" class="header__nav-link">contact us</a>
+                                </li>
                             </ul>
                         </nav>
-                    </header>
-                    <main>
-                        <section class="sc">
-                            <h2 class="h2">featured products</h2>
-                            <ul class="product clearfix">
-                                <li class="product__block">
-                                    <a href="">
-                                        <img src="img/product1.png" alt="photo of the product" class="product__img">
-                                        <span class="product__title">Blue Tshirt</span>
-                                        <span class="product__price">&#36;	26</span>
-                                    </a>
+                    </div>
+                </header>
+                <!-- end header -->
+                <main>
+                    <section class="slider">
+                        <div class="slider__cover active"></div>
+                        <div class="slider__cover"></div>
+                        <div class="slider__content-wrap">
+                            <div class="container">
+                                <div class="slider__control-block clearfix">
+                                    <button class="slider__control slider__control_prev">
+                                        <svg enable-background="new 0 0 511.995 511.995" viewBox="0 0 511.995 511.995" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="m381.039 248.62-234.666-245.333c-4.083-4.229-10.833-4.417-15.083-.333-4.25 4.073-4.396 10.823-.333 15.083l227.603 237.958-227.604 237.959c-4.063 4.26-3.917 11.01.333 15.083 2.063 1.979 4.729 2.958 7.375 2.958 2.813 0 5.604-1.104 7.708-3.292l234.667-245.333c3.938-4.125 3.938-10.625 0-14.75z"/></svg>
+                                    </button>
+                                    <button class="slider__control slider__control_next">
+                                        <svg enable-background="new 0 0 511.995 511.995" viewBox="0 0 511.995 511.995" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="m381.039 248.62-234.666-245.333c-4.083-4.229-10.833-4.417-15.083-.333-4.25 4.073-4.396 10.823-.333 15.083l227.603 237.958-227.604 237.959c-4.063 4.26-3.917 11.01.333 15.083 2.063 1.979 4.729 2.958 7.375 2.958 2.813 0 5.604-1.104 7.708-3.292l234.667-245.333c3.938-4.125 3.938-10.625 0-14.75z"/></svg>
+                                    </button>
+                                </div>
+                                <div class="slider__text active">
+                                    <h3 class="slider__slide-title">
+                                        AFFORDABLE PARIS TOURS                            
+                                    </h3>
+                                    <p class="slider__desc">
+                                        CITY TOURS / TOUR TICKETS / TOUR GUIDES
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="new__collection">
+                        <div class="container">
+                            <h2 class="h2">
+                                new collection
+                            </h2>
+                            <ul class="product__list clearfix">
+                                <li class="product__item">
+                                    <div class="products__cover-wrap">
+                                        <img class="products__cover" src="img/foto1.png" alt="foto">
+                                        <div class="product__actions">
+                                            <ul class="product__actions-list">
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="fas fa-expand-arrows-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="far fa-clock"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="fas fa-shopping-cart"></i>
+                                                        <span class="product__actions-link-text">add to cart</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="products__desc clearfix">
+                                        <span class="products__name">Blue T-shirt</span>
+                                        <span class="products__price">$26</span>
+                                    </div>
                                 </li>
-                                <li class="product__block">
-                                    <a href="">
-                                        <img src="img/product2.png" alt="photo of the product" class="product__img">
-                                        <span class="product__title">WOMAN shirt</span>
-                                        <span class="product__price">&#36;	31</span>
-                                    </a>
+                                <li class="product__item">
+                                    <div class="products__cover-wrap">
+                                        <img class="products__cover" src="img/foto2.png" alt="foto">
+                                        <div class="product__actions">
+                                            <ul class="product__actions-list">
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="fas fa-expand-arrows-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="far fa-clock"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="fas fa-shopping-cart"></i>
+                                                        <span class="product__actions-link-text">add to cart</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="products__desc clearfix">
+                                        <span class="products__name">WOMAN shirt</span>
+                                        <span class="products__price">$31</span>
+                                    </div>
                                 </li>
-                                <li class="product__block">
-                                    <a href="">
-                                        <img src="img/product3.png" alt="photo of the product" class="product__img">
-                                        <span class="product__title">YELLOW Tshirt</span>
-                                        <span class="product__price">&#36;	21</span>
-                                    </a>
+                                <li class="product__item">
+                                    <div class="products__cover-wrap">
+                                        <img class="products__cover" src="img/foto3.png" alt="foto">
+                                        <div class="product__actions">
+                                            <ul class="product__actions-list">
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="fas fa-expand-arrows-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="far fa-clock"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="fas fa-shopping-cart"></i>
+                                                        <span class="product__actions-link-text">add to cart</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="products__desc clearfix">
+                                        <span class="products__name">YELLOW Tshirt</span>
+                                        <span class="products__price">$21</span>
+                                    </div>   
                                 </li>
-                                <li class="product__block">
-                                    <a href=""> 
-                                        <img src="img/product4.png" alt="photo of the product" class="product__img">
-                                        <span class="product__title">Cool lingerie</span>
-                                        <span class="product__price">&#36;	56</span>
-                                    </a>
-                                </li>
-                                <li class="product__block">
-                                    <a href="">
-                                        <img src="img/product5.png" alt="photo of the product" class="product__img">
-                                        <span class="product__title">Blue Tshirt</span>
-                                        <span class="product__price">&#36;	26</span>
-                                    </a>
-                                </li>
-                                <li class="product__block">
-                                    <a href="">
-                                        <img src="img/product6.png" alt="photo of the product" class="product__img">
-                                        <span class="product__title">WOMAN shirt</span>
-                                        <span class="product__price">&#36;	31</span>
-                                    </a>
-                                </li>
-                                <li class="product__block">
-                                    <a href="">
-                                        <img src="img/product7.png" alt="photo of the product" class="product__img">
-                                        <span class="product__title">YELLOW Tshirt</span>
-                                        <span class="product__price">&#36;	21</span>
-                                    </a>
-                                </li>
-                                <li class="product__block">
-                                    <a href="">
-                                        <img src="img/product8.png" alt="photo of the product" class="product__img">
-                                        <span class="product__title">Cool lingerie</span>
-                                        <span class="product__price">&#36;	56</span>
-                                    </a>
+                                <li class="product__item">
+                                    <div class="products__cover-wrap">
+                                        <img class="products__cover" src="img/foto4.png" alt="foto">
+                                        <div class="product__actions">
+                                            <ul class="product__actions-list">
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="far fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="fas fa-expand-arrows-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="far fa-clock"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="product__actions-item">
+                                                    <a href="" class="product__actions-link">
+                                                        <i class="fas fa-shopping-cart"></i>
+                                                        <span class="product__actions-link-text">add to cart</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="products__desc clearfix">
+                                        <span class="products__name">Cool lingerie</span>
+                                        <span class="products__price">$56</span>
+                                    </div> 
                                 </li>
                             </ul>
-                        </section>
-                        <section class="sc">
-                            <h2 class="h2">LATEST NEWS</h2>
-                            <ul class="news clearfix">
-                                <li class="news__block">
-                                    <img src="img/news1.png" alt="foto" class="news__img">
-                                    <p class="news__title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</p>
-                                    <p class="news__text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare </p>
-                                    <a href="">
-                                        <button class="btn">Read More</button>
-                                    </a>
-                                </li>
-                                <li class="news__block">
-                                    <img src="img/news2.png" alt="foto" class="news__img">
-                                    <p class="news__title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</p>
-                                    <p class="news__text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare </p>
-                                    <a href="">
-                                        <button class="btn">Read More</button>
-                                    </a>
-                                </li>
-                                <li class="news__block">
-                                    <img src="img/news3.png" alt="foto" class="news__img">
-                                    <p class="news__title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</p>
-                                    <p class="news__text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare </p>
-                                    <a href="" class="btn">Read More</button>
-                                    </a>
-                                </li>
-                            </ul>
-                        </section>
-                    </main>
-                </div>
+                        </div>
+                    </section>
+                    <footer class="footer">
+                        <span class="footer__text">
+                        <p class="footer__text-first">All Rights Reserved &copy; Dokan | Designed</p>
+                        <p class="footer__text-last">ThemenGraph</p>
+                    </footer>
+                </main>
             </body>
         <!-- </div> -->
     </html>
