@@ -80,6 +80,7 @@ h2::after{
     display: inline-block;
     margin-right: 35px;
     font-size: 16px;
+    font-family: var(--primary-font);
 }
 
 .header__nav-item:last-child {
