@@ -7,7 +7,6 @@
 body {
     font-family: var(--primary-font);
     counter-reset: count-products;
-    background-color: #e9f0fd;
 }
 
 .container {
@@ -45,8 +44,8 @@ h2::after{
 }
 
 .header {
-    margin-top: 33px;
-    margin-bottom: 20px;
+    padding-top: 33px;
+    padding-bottom: 20px;
 }
 
 
@@ -76,7 +75,6 @@ h2::after{
 }
 
 .header__nav-item {
-    position: relative;
     display: inline-block;
     margin-right: 35px;
     font-size: 16px;
@@ -188,7 +186,9 @@ h2::after{
 }
 
 .new__collection{
-    margin-top: 102px;
+    padding-top: 102px;
+    background-color: #e9f0fd;
+    padding-bottom: 69px;
 }
 
 .product__item{
@@ -239,27 +239,38 @@ h2::after{
     left: 0;
     bottom: 0;
     right: 0;
-    width: 166px;
+    width: 167px;
     height: 107px;
     margin: auto;
 }
 
 .product__actions-item {
     float: left;
-    width: 50px;
-    height: 50px;
     margin-right: 8px;
     border: 1px solid #fff;
     box-sizing: border-box;
     text-align: center;
     transition: 0.35s;
+    width: 50px;
+    height: 50px;
+} 
+
+.product__actions-link {
+    display: inline;
+    color: #fff;
+    background-color: transparent;
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 0px;
+    padding: 0px;
 }
 
 .product__actions-item:nth-child(n+3){
     margin-right: 0;
 }
 
-.product__actions-item:nth-child(4) {
+.product__actions-item:nth-child(4){
     width: 100%;
     margin-top: 8px;
     background-color: #323232;
@@ -268,19 +279,6 @@ h2::after{
 .product__actions-item:hover {
     background-color: var(--blue-color);
     border-color: var(--blue-color);
-}
-
-.product__actions-link {
-    color: #fff;
-    text-transform: uppercase;
-    vertical-align: middle;
-    text-decoration: none;
-}
-
-.product__actions-link-text {
-    padding-left: 5px;
-    user-select: none;
-    font-family: var(--primary-font);
 }
 
 .product__actions-link .fas{
@@ -293,6 +291,13 @@ h2::after{
     font-size: 30px;
     line-height: 48px;
     vertical-align: middle;
+}
+
+.product__actions-link-text {
+    padding-left: 5px;
+    user-select: none;
+    font-family: var(--primary-font);
+    font-size: 14px;
 }
 
 .products__desc {
@@ -328,7 +333,6 @@ h2::after{
 }
 
 .footer{
-    margin-top: 69px;
     position: relative;
     height: 89px;
     background-color: #323232;
