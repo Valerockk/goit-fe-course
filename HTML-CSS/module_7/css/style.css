@@ -281,10 +281,6 @@
     background-position: bottom 10px right 0px;
 }
 
-.contact-us__form {
-    position: relative;
-}
-
 .contact-us__input-wrap {
     display: flex;
     justify-content: space-between;
