@@ -60,7 +60,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 38px;
 }
 
 .header__logo{
@@ -131,7 +130,6 @@ body {
     width: 270px;
     margin: 0 0 75px 50px;
     padding-left: 60px;
-    display: inline-block;
     top: 0;
     left: 0;
 }
@@ -169,7 +167,7 @@ body {
     font-size: 14px;
     color: #333;
     text-transform: uppercase;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .services__item-description{
@@ -188,7 +186,7 @@ body {
     color: #999;
     font-family: var(--ff-roboto);
     font-size: 15px;
-    margin: 46px auto 91px;
+    margin: 0px auto 91px;
     max-width: 941px;
     text-align: center;
     line-height: 1.4;
@@ -302,8 +300,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     border-top:  2px solid #e5e5e5;
-    padding-top: 9px;
-    padding-bottom: 12px;
+    padding: 9px 0 12px 0;
 }
 
 .footer__text{
