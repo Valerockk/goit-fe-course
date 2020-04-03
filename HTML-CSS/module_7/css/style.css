@@ -116,6 +116,17 @@
          url('../fonts/montserrat-v14-latinmontserrat-v14-latin-800.svg#Montserrat') format('svg'); /* Legacy iOS */
   }
 
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+
 :root {
     --yellow-color: #fed136;
     --black-color: #222;
@@ -151,23 +162,12 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 111px;
-}
-
-.sub_title{
-    color: var(--grey-color);
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: none;
-    text-align: center;
-    margin-top: 19px;
-    font-style: italic;
-    padding-bottom: 79px;
+    margin-top: 111px;
 }
 
 .header{
-    padding-top: 44px;
-    padding-bottom: 120px;
+    margin-top: 44px;
+    margin-bottom: 120px;
 }
 
 .header_inner{
@@ -179,6 +179,7 @@
 }
 
 .header__logo{
+    display: block;
     color: var(--yellow-color);
     text-decoration: none;
     font-family: var(--ff-Satisfy);
@@ -202,6 +203,7 @@
 }
 
 .header__nav-link{
+    display: block;
     color: var(--grey-color);
     font-size: 14px;
     font-family: var(--ff-Montserrat);
@@ -211,13 +213,22 @@
     transition: 0.35s;
 }
 
-.header__nav-link:hover,
-.header__nav-link-active{
+.header__nav-link:hover{
     color: var(--yellow-color);
 }
 
-.services__inner{
-    margin-bottom: 100px;
+
+
+.services__title-text{
+    color: var(--grey-color);
+    font-family: var(--ff-Roboto);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    text-align: center;
+    margin-top: 19px;
+    font-style: italic;
+    margin-bottom: 79px;
 }
 
 .services__list{
@@ -229,7 +240,6 @@
 .services__item{
     text-align: center;
     width: 274px;
-    margin-bottom: 19px;
 }
 
 .services__item-icon{
@@ -255,7 +265,7 @@
     font-size: 18px;
     color: var(--black-color);
     font-weight: 700;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .services__item-description{
@@ -275,10 +285,19 @@
     left: 0;
     width: 100%;
     height: 100%;
+    margin-top: 100px;
     background-color: var(--black-color);
     background-image: url(../img/map.png);
     background-repeat: no-repeat;
     background-position: bottom 10px right 0px;
+}
+
+.contact-us__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .contact-us__input-wrap {
@@ -287,13 +306,14 @@
     flex-direction: column;
     flex-wrap: wrap;
     height: 221px;
-    max-width: 941px;
-    margin: auto;
+    width: 100%;
+    max-width: 912px;
     margin-bottom: 29px;
 }
 
 .contact-us__input,
 .contact-us__textarea  {
+    display: inline;
     width: 48.5%;
     font-size: 14px;
     padding: 21px 29px 21px 21px;
@@ -318,9 +338,8 @@
 }
 
 .contact-us__submit-btn {
- position: absolute;
- left: 50%;
- transform: translateX(-50%);
+ display: block;
+ text-align: center;
  padding: 26px 48px;
  border: 0;
  border-radius: 3px;
