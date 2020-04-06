@@ -1,0 +1,219 @@
+body{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+
+.h2{
+    margin: auto;
+    color: #333;
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 259px;
+    padding-top: 68px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-top: 19px;
+}
+
+.header__inner{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.header__logo{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.header__log-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 115px;
+}
+
+.header__log-link{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 13px 20px 10px;
+    text-decoration: none;
+    border: 3px solid transparent;
+    border-radius: 21px;
+    transition: 0.35s;
+}
+
+.header__log-link:hover{
+    border-color: #fff;
+}
+
+.after__head{
+    position: relative;
+    min-height: 100vh;
+    padding: 229px 0 139px;
+    box-sizing: border-box;
+    background-image: url('../img/bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.after__head-title{
+    max-width: 276px;
+    margin: auto;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 19px;
+}
+
+.after__head_sub-title{
+    max-width: 220px;
+    margin: auto;
+    color: #fff;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.btn-wrap{
+    text-align: center;
+}
+
+.btn{
+    padding: 13px  25px;
+    color: #ff4e50;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid #ff4e50;
+    border-radius: 28px;
+    background-color: transparent;
+    transition: 0.35s;
+}
+
+.btn:hover{
+    background-color: #ff4e50;
+    color: #fff;
+}
+
+.holiday-partners__inner{
+    padding-bottom: 60px;
+}
+
+.holiday-partners__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.holiday-partner__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+}
+
+.holiday-partner__avatar{
+    position: relative;
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.holiday-partner__avatar-tv{
+    background-image: url(../img/photo01.png);
+}
+
+.holiday-partner__avatar-tea{
+    background-image: url(../img/photo02.png);
+}
+
+.holiday-partner__avatar-chemic{
+    background-image: url(../img/photo03.png);
+}
+
+.holiday-partner__avatar-telegram{
+    background-image: url(../img/photo04.png);
+}
+
+.holiday-partner__avatar::after{
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    display: block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.holiday-partner__avatar-tv::after{
+    background-image: url(../img/tv.png);
+    background-color: #ff4e50;
+}
+
+
+.holiday-partner__avatar-tea::after{
+    background-image: url(../img/tea.png);
+    background-color: #1cd7ad;
+}
+
+.holiday-partner__avatar-chemic::after{
+    background-image: url(../img/chemic.png);
+    background-color: #ffa507;
+}
+
+.holiday-partner__avatar-telegram::after{
+    background-image: url(../img/telegram.png);
+    background-color: #4e73db;
+}
+
+.holiday-partner__name{
+    color: #333;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    font-weight: 700;
+}
+
+.holiday-partners__desc{
+    color: #666;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 28px;
+    font-weight: 400;
+}
