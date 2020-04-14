@@ -314,10 +314,18 @@ box-sizing: inherit;
     justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 221px;
+    /* height: 221px; */
     width: 100%;
     max-width: 456px;
     margin-bottom: 29px;
+}
+
+.contact-us__input{
+    margin-bottom: 28px;
+}
+
+.contact-us__input:last-of-type{
+    margin-bottom: 0;
 }
 
 .contact-us__input,
@@ -335,7 +343,7 @@ box-sizing: inherit;
 }
 
 .contact-us__textarea {
-    height: 221px;
+    height: 231px;
     resize: none;
 }
 
