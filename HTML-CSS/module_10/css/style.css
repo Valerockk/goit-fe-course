@@ -42,7 +42,7 @@ body {
     background-color: var(--pink-color);
 }
 
-.sub_title{
+.h2__sub_title{
     color: #333;
     font-size: 24px;
     text-align: center;
@@ -126,8 +126,9 @@ ul{
     transition: 0.35s;
 }
 
-.cls-1:hover{
-    fill: #fce38a;
+.header__nav-icon{
+    fill: #fff;
+    fill-rule: evenodd;
 }
 
 .header__nav-link:hover {
@@ -157,7 +158,7 @@ ul{
     background-size: cover;
 }
 
-.after__head_sub-title{
+.after__head-sub_title{
     margin: auto;
     color: #fff;
     font-family: var(--ff-kaushan);
@@ -181,12 +182,12 @@ ul{
     margin-bottom: 123px;
 }
 
-.btn-wrap{
+.after__head-btn_wrap{
     text-align: center;
     padding-bottom: 231px;
 }
 
-.btn{
+.after__head-btn{
     padding: 13px  25px;
     color: #fff;
     width: 161px;
@@ -195,9 +196,11 @@ ul{
     border: 3px solid #fff;
     background-color: transparent;
     transition: 0.35s;
+    cursor: pointer;
+
 }
 
-.btn:hover{
+.after__head-btn:hover{
     background-color: #f38181;
 }
 
@@ -224,42 +227,14 @@ ul{
     fill: #95e1d3;
 }
 
-.icon{
+.services__item-icon{
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
-    width: 31px;
-    height: 28px;
+    fill: #95e1d3;
+    fill-rule: evenodd;
 }
-
-/* .pc{
-    fill:#95e1d3;
-} */
-/* 
-.services__item-clock{
-    background: url('../img/services01.png') no-repeat;
-}
-
-.services__item-design{
-    background: url('../img/services02.png') no-repeat;
-}
-
-.services__item-monitor{
-    background: url('../img/services03.png') no-repeat;
-}
- 
-.services__item-book{
-    background: url('../img/services04.png') no-repeat;
-}
-
-.services__item-hous{
-    background: url('../img/services05.png') no-repeat;
-}
-
-.services__item-digital{
-    background: url('../img/services06.png') no-repeat;
-}  */
 
 .services__item-title{
     font-family: var(--ff-montserrat);
@@ -367,6 +342,16 @@ ul{
     background-color: var(--blue-color);
 }
 
+.team__socials-btn-icon{
+    fill: #f38181;
+    fill-rule: evenodd;
+    transition: 0.35s;
+}
+
+.team__socials-btn-icon:hover{
+    fill: #fff;
+}
+
 .fab{
     font-size: 27px;
     color: #f38181;
@@ -447,4 +432,5 @@ ul{
     text-align: center;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+    cursor: pointer;
 }
