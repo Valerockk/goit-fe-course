@@ -30,13 +30,13 @@ body {
     line-height: 1.2;
     text-transform: uppercase;
     font-family: var(--ff-montserrat);
-    margin-top: 45px;
+    padding-top: 45px;
 }
 
 .h2::after{
     content: '';
     display: block;
-    margin: 41px auto 50px;
+    margin: 61px auto 50px;
     width: 61px;
     height: 4px;
     background-color: var(--pink-color);
@@ -49,7 +49,7 @@ body {
     font-weight: 400;
     line-height: 1.2;
     font-family: var(--ff-kaushan);
-    margin-bottom: 22px;
+    padding-bottom: 22px;
     text-transform: none;
 }
 
@@ -158,6 +158,12 @@ ul{
     background-size: cover;
 }
 
+.after__head-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .after__head-sub_title{
     margin: auto;
     color: #fff;
@@ -166,7 +172,7 @@ ul{
     text-align: center;
     line-height: 1.2;
     font-weight: 400;
-    margin-bottom: 42px;
+    padding-bottom: 42px;
 }
 
 .after__head-title{
@@ -179,7 +185,7 @@ ul{
     text-transform: uppercase;
     text-align: center;
     line-height: 1;
-    margin-bottom: 123px;
+    padding-bottom: 123px;
 }
 
 .after__head-btn_wrap{
@@ -197,7 +203,6 @@ ul{
     background-color: transparent;
     transition: 0.35s;
     cursor: pointer;
-
 }
 
 .after__head-btn:hover{
@@ -223,6 +228,10 @@ ul{
     margin-right: 50px;
 }
 
+.services__item:nth-child(n+4){
+    margin-bottom: 0px;
+}
+
 .top-menu-links__icon{
     fill: #95e1d3;
 }
@@ -241,7 +250,7 @@ ul{
     font-size: 14px;
     color: #333;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .services__item-description{
@@ -251,7 +260,7 @@ ul{
 }
 
 .team{
-    margin: 42px 0 81px 0;
+    padding: 42px 0 81px 0;
     text-align: center;
 }
 
@@ -260,10 +269,10 @@ ul{
     color: #999;
     font-family: var(--ff-roboto);
     font-size: 15px;
-    margin: 0px auto 91px;
     max-width: 941px;
     text-align: center;
     line-height: 1.4;
+    padding: 0px auto 91px;
 }
 
 .team__member-list{
@@ -273,7 +282,6 @@ ul{
 }
 
 .team__member{
-    /* position: relative; */
     width: 381px;
 }
 
@@ -338,7 +346,7 @@ ul{
     text-decoration: none;
 }
 
-.team__socials-btn:hover{
+.team__socials-btn:hover {
     background-color: var(--blue-color);
 }
 
@@ -348,7 +356,7 @@ ul{
     transition: 0.35s;
 }
 
-.team__socials-btn-icon:hover{
+.team__socials-btn:hover .team__socials-btn-icon{
     fill: #fff;
 }
 
@@ -365,7 +373,7 @@ ul{
     font-weight: 400;
     line-height: 1.2;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .team__member-position{
@@ -376,6 +384,7 @@ ul{
     line-height: 1.2;
     font-style: italic;
 }
+
 .footer{
     display: flex;
     width: 100%;
@@ -388,10 +397,10 @@ ul{
 
 .footer__text{
     display: block;
-    margin-left: 0;
     font-family: var(--ff-montserrat);
     font-size: 14px;
     color: #333;
+    padding-left: 0;
 }
 
 .footer__text-last{
