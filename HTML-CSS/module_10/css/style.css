@@ -354,8 +354,6 @@ ul{
     fill: #f38181;
     fill-rule: evenodd;
     transition: 0.35s;
-    width: 32px;
-    height: 29px;
 }
 
 .team__socials-btn:hover .team__socials-btn-icon{
